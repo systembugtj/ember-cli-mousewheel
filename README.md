@@ -1,12 +1,12 @@
-# Ember-cli-mousewheel
+# ember-cli-mousewheel
 
-This README outlines the details of collaborating on this Ember addon.
+This is an ember cli addon for jquery-mousewheel.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```bash
+ember install ember-cli-mousewheel
+```
 
 ## Running
 
