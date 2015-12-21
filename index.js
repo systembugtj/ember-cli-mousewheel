@@ -1,6 +1,6 @@
 /* jshint node: true */
 'use strict';
-let path = require('path');
+var path = require('path');
 
 module.exports = {
   name: 'ember-cli-mousewheel',
