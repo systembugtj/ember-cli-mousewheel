@@ -15,9 +15,7 @@ This is an ember cli addon for jquery-mousewheel.
 ## Installation
 
 ```bash
-* `cd ember-cli-mousewheel`		 
-* `ember install ember-cli-mousewheel`
-* `npm install`		 
+ember install ember-cli-mousewheel
 ```
 
 ## Running
