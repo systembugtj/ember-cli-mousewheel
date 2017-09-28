@@ -5,6 +5,11 @@
 
 This is an ember cli addon for jquery-mousewheel.
 
+0.2.0
+use juery-mousewheel npm package and support fastboot.
+0.1.5
+use juery-mousewheel bower package.
+
 ## Installation
 
 * `git clone <repository-url>` this repository
