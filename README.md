@@ -6,7 +6,7 @@ This is an ember cli addon for jquery-mousewheel.
 
 * `git clone <repository-url>` this repository
 * `cd ember-cli-mousewheel`
-+* `npm install`
+* `npm install`
 
 ## Running
 
