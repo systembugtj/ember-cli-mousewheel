@@ -37,8 +37,6 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-    app.import({
-      development: 'vendor/jquery.mousewheel.js'
-    });
+    app.import('vendor/jquery.mousewheel.js');
   }
 };
