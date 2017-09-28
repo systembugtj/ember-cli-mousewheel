@@ -8,11 +8,10 @@ module.exports = {
   //     foo: options.entity.options.foo
   //   };
   // }
-  
+
   normalizeEntityName: function() {
   },
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('jquery-mousewheel');
   }
 };
