@@ -19,7 +19,9 @@ module.exports = {
     var mousewheelTree = new Funnel(mousewheelDir, {
       files: ['jquery.mousewheel.js']
     });
-    mousewheelTree = new BroccoliDebug(mousewheelTree, 'ember-cli-mousewheel:mousewheel-tree');
+    mousewheelTree = new BroccoliDebug(
+      mousewheelTree, 'ember-cli-mousewheel:mousewheel-tree'
+    );
 
     if (vendorTree) {
       vendorTree = mergeTrees([vendorTree, mousewheelTree]);
@@ -27,7 +29,9 @@ module.exports = {
       vendorTree = mousewheelTree;
     }
 
-    return new BroccoliDebug(fbTransform(vendorTree), 'ember-cli-mousewheel:vendor-tree');
+    return new BroccoliDebug(
+      fbTransform(vendorTree), 'ember-cli-mousewheel:vendor-tree'
+    );
   },
 
   included: function(app) {
