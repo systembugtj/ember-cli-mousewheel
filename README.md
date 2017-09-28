@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/systembugtj/ember-cli-mousewheel.svg?branch=master)](https://travis-ci.org/systembugtj/ember-cli-mousewheel)
 [![npm version](https://badge.fury.io/js/ember-cli-mousewheel.svg)](https://badge.fury.io/js/ember-cli-mousewheel)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-mousewheel.svg)](http://emberobserver.com/addons/ember-cli-mousewheel)
 
 This is an ember cli addon for jquery-mousewheel.
 
@@ -13,9 +14,11 @@ This is an ember cli addon for jquery-mousewheel.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-mousewheel`
-+* `npm install`
+```bash
+* `cd ember-cli-mousewheel`		 
+* `ember install ember-cli-mousewheel`
+* `npm install`		 
+```
 
 ## Running
 
