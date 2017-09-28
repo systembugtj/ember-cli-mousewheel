@@ -1,6 +1,15 @@
 # ember-cli-mousewheel
 
+[![Build Status](https://travis-ci.org/systembugtj/ember-cli-mousewheel.svg?branch=master)](https://travis-ci.org/systembugtj/ember-cli-mousewheel)
+[![npm version](https://badge.fury.io/js/ember-cli-mousewheel.svg)](https://badge.fury.io/js/ember-cli-mousewheel)
+
 This is an ember cli addon for jquery-mousewheel.
+
+0.2.0
+* use juery-mousewheel npm package and support fastboot.
+
+0.1.5
+* use juery-mousewheel bower package.
 
 ## Installation
 
